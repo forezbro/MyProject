@@ -1,0 +1,116 @@
+{   
+	"logos": [
+			"../../static/imgas/images/aj.png",
+			"../../static/imgas/images/adidas.png",
+			"../../static/imgas/images/lin.png",
+			"../../static/imgas/images/andema.png",
+			"../../static/imgas/images/asics.png",
+			"../../static/imgas/images/cc.png",
+			"../../static/imgas/images/cv.png",
+			"../../static/imgas/images/ente.png",
+			"../../static/imgas/images/fr2.png",
+			"../../static/imgas/images/fuck.png",
+			"../../static/imgas/images/gj.png",
+			"../../static/imgas/images/gucci.png",
+			"../../static/imgas/images/hot.png",
+			"../../static/imgas/images/lin.png",
+			"../../static/imgas/images/nike.png",
+			"../../static/imgas/images/off.png",
+			"../../static/imgas/images/aj.png",
+			"../../static/imgas/images/appe.png",
+			"../../static/imgas/images/ape.png",
+			"../../static/imgas/images/supreme.png",
+			"../../static/imgas/images/palace.png",
+			"../../static/imgas/images/ball.png",
+			"../../static/imgas/images/bour.png",
+			"../../static/imgas/images/brei.png",
+			"../../static/imgas/images/lego.png",
+			"../../static/imgas/images/nb.png",
+			"../../static/imgas/images/noah.png",
+			"../../static/imgas/images/jaeg.png",
+			"../../static/imgas/images/jrs.png",
+			"../../static/imgas/images/thom.png",
+			"../../static/imgas/images/syc.png"
+	],
+	"logos1": [
+			"../../static/imgas/sp1.png",
+			"../../static/imgas/sp2.png",
+			"../../static/imgas/sp3.png",
+			"../../static/imgas/sp4.png",
+			"../../static/imgas/sp5.png",
+			"../../static/imgas/sp6.png",
+			"../../static/imgas/sp7.png",
+			"../../static/imgas/sp8.png",
+			"../../static/imgas/sp9.png",
+			"../../static/imgas/sp10.png",
+			"../../static/imgas/sp11.png",
+			"../../static/imgas/sp12.png"
+	],
+	"logos2": [
+			"../../static/imgas/images/aj.png",
+			"../../static/imgas/images/adidas.png",
+			"../../static/imgas/images/lin.png",
+			"../../static/imgas/images/andema.png",
+			"../../static/imgas/images/nike.png"
+	],
+	"logos3": [
+			"../../static/imgas/images/adidas.png",
+			"../../static/imgas/images/asics.png",
+			"../../static/imgas/images/nike.png",
+			"../../static/imgas/images/noah.png",
+			"../../static/imgas/images/syc.png"
+	],
+	"logos4": [
+			"../../static/imgas/images/aj.png",
+			"../../static/imgas/images/adidas.png",
+			"../../static/imgas/images/lin.png",
+			"../../static/imgas/images/andema.png",
+			"../../static/imgas/images/asics.png",
+			"../../static/imgas/images/cv.png",
+			"../../static/imgas/images/gucci.png",
+			"../../static/imgas/images/lin.png",
+			"../../static/imgas/images/nike.png",
+			"../../static/imgas/images/aj.png",
+			"../../static/imgas/images/nb.png",
+			"../../static/imgas/images/syc.png"
+	],
+	"logos5": [
+			"../../static/imgas/images/ente.png",
+			"../../static/imgas/images/fr2.png",
+			"../../static/imgas/images/fuck.png",
+			"../../static/imgas/images/gj.png",
+			"../../static/imgas/images/nike.png",
+			"../../static/imgas/images/pal.png",
+			"../../static/imgas/images/ape.png",
+			"../../static/imgas/images/ball.png",
+			"../../static/imgas/images/bour.png",
+			"../../static/imgas/images/noah.png",
+			"../../static/imgas/images/jaeg.png",
+			"../../static/imgas/images/jrs.png",
+			"../../static/imgas/images/thom.png",
+			"../../static/imgas/images/supreme.png",
+			"../../static/imgas/images/off.png",
+			"../../static/imgas/images/palace.png"
+	],
+	"logos6": [
+			"../../static/imgas/images/cc.png",
+			"../../static/imgas/images/hot.png",
+			"../../static/imgas/images/lego.png",
+			"../../static/imgas/images/ente.png"
+	],
+	"logos7": [
+			"../../static/imgas/images/cc.png",
+			"../../static/imgas/images/gucci.png",
+			"../../static/imgas/images/off.png",
+			"../../static/imgas/images/supreme.png",
+			"../../static/imgas/images/palace.png"
+	],
+	"logos8": [
+			"../../static/imgas/images/omega.png",
+			"../../static/imgas/images/jaeg.png",
+			"../../static/imgas/images/brei.png"
+	],
+	"logos9": [
+			"../../static/imgas/images/appe.png"
+	]
+}

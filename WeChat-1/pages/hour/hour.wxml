@@ -1,0 +1,23 @@
+<view>
+  <view class="nav bc_white">
+    <view class="{{selected?'red':'default'}}" bindtap="selected">精选</view>
+    <view class="{{selected1?'red':'default'}}" bindtap="selected1">原味</view>
+  </view>
+    <view class="{{selected?'show':'hidden'}}">
+        <view class='section' wx:for="{{xw}}" wx:key="{{item.viewid}}">
+            <view class="title"> {{item.title}}</view>
+            <view class="time">{{item.addTime}}</view>
+            <image class="img" src="{{item.fullImgUrl}}"/>
+            <view></view>
+        </view>
+    </view>
+    <view class="{{selected1?'show':'hidden'}}">
+        <view class='section' wx:for="{{movies}}" wx:key="{{item.viewid}}">
+            <view class="title"> {{item.title}}</view>
+            <view class="time"><image src=" {{item.fullSourceLogoUrl}}"/>{{item.publishTime}}</view>
+            <image class="img" src="{{item.fullPicUrl}}"/>
+            <view class="content">{{item.description}}</view>
+            <view></view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+		class Flyer{
+			constructor(speed,name){
+				this.speed=speed;
+				this.name=name;
+			}
+			fly(){
+				return this.name+"正在以"+this.speed+"飞行"
+			}
+		}
+		class plane extends Flyer{
+			constructor(speed,name,type){
+				super(speed,name);
+				this.type=type;
+			}
+			getType(){
+				return this.name+"号"+this.type+"正在以"+this.speed+"飞行";
+			}
+		}
+		var mw=new plane(1000,"冥王","航母");
+		console.log(mw.getType());
+	</script>
+</html>

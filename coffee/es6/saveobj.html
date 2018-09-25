@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+	"use strict";
+		var objs=function(id,name,age,salary,birth){
+			this.id=id;
+			this.name=name;
+			this.salary=salary;
+			this.age=age;
+			Object.defineProperties(this,{
+				id:{writable:false},
+				salary:{enumerable:false},
+				_birth:{
+					writable:true,
+					enumerable:false
+				},
+				birth:{
+					get:function(){
+						return new Date(this._birth).toLocaleDateString();
+					},
+					set:function(val){
+						var nowDate=new Date();
+						var startDate=new Date(nowDate);
+						startDate.setFullYear(startDate.getFullYear()-18);
+						var endDate=new Date(nowDate);
+						endDate.setFullYear(endDate.getFullYear()-65);
+						if(val>=endDate&&val<=startDate)
+							this._birth=val.getTime();
+						else 
+							throw new RangeError("年龄必须介于18-65岁之间！");
+					},
+					enumerable:true
+				}
+			});
+			this.birth=birth;
+			Object.seal(this);
+		}
+		var obj=new objs(10,"yx",22,10000,new Date("1991/9/20"));
+//		delete obj.salary;
+		console.log(obj);
+//		delete obj.salary;
+//		obj.id=10000;
+	</script>
+</html>

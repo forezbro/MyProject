@@ -1,0 +1,271 @@
+.loading{
+	position: fixed;
+	width:100vw;
+	height: 50vh;
+	text-align: center;
+	top: 50%;
+	left: 0;
+}
+.link{
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	left: 2vw;
+	i{
+		font-size: 0.4rem;
+		color: coral;
+	}
+}
+.swiper-pagination-bullet{
+            background: #FFF;
+            width:5px!important;
+            height:5px!important;
+    }
+.Detail{
+	
+}
+.delbasic{
+	padding-bottom: 0.2rem;
+	h2{
+		padding: 0.1rem ;
+		font-size: 0.2rem;
+		text-align: center;
+		color: #333;
+		i{
+			font-size: 0.3rem;
+			margin-left: 0.1rem;
+		}
+	}
+	>p{
+		margin:0!important;
+		padding: 0.04rem 0.1rem;
+		color: #838B83;
+		font-size: 0.16rem;
+	}
+	>div{
+		color: #A1A1A1;
+		font-size: 0.16rem;
+		padding:0 0.1rem;
+		.nowprice,.count{
+			color: #fc3838;
+			font-size: 0.16rem;
+			font-weight:400;
+		}
+		.oldprice{
+			color: #A1A1A1;
+			font-size: 0.16rem;
+		}
+	}
+}
+.empty{
+	background: #EAEAEA;
+	height: 0.04rem;
+}
+.maxbox{
+	padding:0.2rem 0.16rem 0.3rem 0.16rem;
+	>h3{
+		font-size: 0.22rem;
+		font-weight: bold;
+		text-align: center;
+		padding: 0.14rem 0;
+		color: #1B6D85;
+		margin-bottom:0.2rem;
+		position: relative;
+	}
+	
+}
+.ShopInfo {
+	h4,p{
+		padding: 0.1rem 0;
+		border-bottom: 1px solid #F7F7F7;
+	}
+	i{
+		color: #000;
+		vertical-align: middle;
+	}
+	p{
+		font-size: 0.16rem;
+		color:#63666b;	
+		.icon-weizhi,.icon-dianhua{
+		margin-right: 0.06rem;
+		}
+		.icon-xiaotuziCduan_1{
+			margin-left:  0.06rem;
+		}
+		span{
+			display: inline-block;
+			width: 80%;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			vertical-align: middle;
+		}
+	}	
+}
+.usercompent {
+	.useinfo{
+		height: 0.4rem;
+		line-height: 0.4rem;
+		font-size: 0.14rem;
+		color: #63666b;
+		.imgbox{
+			display: inline-block;
+			width:0.4rem;
+			height: 0.4rem;
+			overflow: hidden;
+			border-radius: 50%;
+			vertical-align: middle;
+			margin-right: 0.1rem;
+		}
+	}
+	.compoentext{	
+	    font-size: 0.14rem;
+	    text-align: left;
+	    color: #92969c;
+	    padding: 0.1rem 0;
+	}
+	.compoenttag{
+		span{
+			display: inline-block;
+		    color: #92969c;
+		    border-radius: 4px;
+		    background-color: #f2f3f5;
+		    text-align: center;
+		    padding: 0.02rem 0.03rem;
+		    margin-right: 0.1rem;
+		    margin-top: 0.1rem;
+		    font-size: 0.12rem;
+		}
+	}
+	.usertext{
+	    font-size: 0.12rem;
+	    line-height: 1.5;
+	    color: #63666b;
+	    padding: 0.1rem 0;
+	}
+	.comimg{
+		padding-bottom: 0.14rem;
+		border-bottom: 1px solid #F7F7F7;
+		.itembox{
+			display: inline-block;
+			width:1.6rem;
+			height: 1.4rem;
+			margin-top: 0.1rem;
+			margin-right: 0.1rem;
+			img{
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+	.checkall{
+		padding-top: 0.2rem;
+		font-size: 0.14rem;
+		color: #63666b;
+	}
+}
+.menu{
+	text-align: center;
+	>ul{
+		margin-top: 0.2rem;
+		>li{
+			margin:0.2rem 0;
+			font-size: 0.16rem;
+			ul>li{
+				margin:0.06rem 0;
+			}
+		}
+	}
+	h4{
+		font-size: 0.24rem;
+		margin:0.05rem 0;
+		span{
+			position: relative;
+		}
+
+		span:before{
+		content:"";
+		position: absolute;
+		top: 50%;
+		height: 1px;
+		background:#63666b;
+		width: 0.2rem;
+		left: -0.3rem;
+		}
+		span:after{
+			content:"";
+			position: absolute;
+			top: 50%;
+			height: 1px;
+			background:#63666b;
+			width: 0.2rem;
+			right: -0.3rem;
+		}
+	}
+	
+}
+.light{
+	>ul{
+		margin-top: 0.2rem;
+		>li{
+			padding-bottom: 0.1rem;
+			border-bottom: 1px solid #DBDBDB;
+			margin-bottom: 0.1rem;
+			h3{
+				font-size: 0.2rem;
+				padding: 0.1rem 0;
+			}
+			p{
+				font-size: 0.18rem;
+				line-height:0.32rem;
+			}
+		}
+	}
+}
+.usetip{
+	p{
+		line-height: 0.3rem;
+		font-size: 0.18rem;
+		.dots{
+			display: inline-block;
+			width:6px;
+			height: 6px;
+			border-radius: 50%;
+			background: #000;
+			vertical-align: middle;
+			margin-right:0.1rem;
+			position: relative;
+			top: -1px;
+		}
+	}
+	button{
+		display:block;
+		width:1.2rem;
+		padding:0.1rem;
+		margin:0.1rem auto;
+		border: 1px solid #A1A1A1;
+		border-radius: 2px;
+		box-shadow: 0 0 2px 0 #A1A1A1;
+		font-size: 0.18rem;
+	}
+}
+.gesslove {
+	ul>li{
+		margin:0.1rem 0;
+	}
+	.itemimg{
+		width: 30vw;
+		height: 0.8rem;
+	}
+	.descript{
+		width: 54vw;
+		margin-left:0.1rem;
+		p{
+			font-size: 0.16rem;
+		}
+		h5{
+			font-size: 0.14rem;
+			color: #ff3939;
+		}
+	}
+}

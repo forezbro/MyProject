@@ -1,0 +1,72 @@
+.swiper {
+  height: 400rpx;
+  width: 100%;
+}
+.swiper1{
+  height: 100rpx;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+  
+}
+.swiper-item{
+  background: white;
+}
+.sd{
+  width: 360rpx;
+  height: 70rpx;
+}
+.sd image{
+  width: 100%;
+  height: 100%;
+}
+.section1{
+  padding: 2px 16px;
+}
+.title{
+  font-size: 32rpx;
+  max-width: 600rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: bold;
+  margin: 6px 2px;
+}
+.messg{
+  overflow: hidden;
+  border-top: 3px solid #eee;
+  padding: 16px 0px;
+}
+.right{
+  background: rgb(154, 154, 255);
+  width: 280rpx;
+  height: 220rpx;
+  float: right;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-left: 30px;
+}
+.right image{
+  width: 100%;
+  height: 100%;
+}
+.mg{
+  font-weight: bold;
+  font-size: 36rpx;
+}
+.bottom{
+  margin-top: 20px;
+
+}
+.look{
+  font-size: 30rpx;
+  color: #ccc;
+}
+.time{
+  color: rgb(154, 154, 255);
+  font-size: 28rpx;
+  vertical-align: bottom;
+}
+
+

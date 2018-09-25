@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<button>dianji</button>
+	</body>
+	<script type="text/javascript">
+		var btn=document.getElementsByTagName("button")[0];
+		btn.addEventListener("click",e=>alert("点击成功"));
+		btn.addEventListener("click",e=>alert(e.target.innerHTML));
+		var arr=[828,24,11,43];
+		arr.sort((a,b)=>a-b);
+		console.log(arr);
+		str="今天我草草的收拾东西回家，路边草很多，我想说草你大爷";
+		var str1=str.replace(/[草]{1,2}/g,(val)=>val.length>=2?"**":"*");
+		console.log(str1);
+	</script>
+</html>

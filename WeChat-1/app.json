@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/find/find",
+    "pages/hour/hour",
+    "pages/main/main",
+    "pages/publish/publish",
+    "pages/detail1/detail1",
+    
+    "pages/detail2/detail2"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#5CACEE",
+    "navigationBarTitleText": "推荐",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "color": "white",
+    "position": "bottom",
+    "backgroundColor": "#00000",
+    "selectedColor": "#666",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "img/tz.png",
+        "selectedIconPath": "img/tz1.png"
+      },
+      {
+        "pagePath": "pages/hour/hour",
+        "iconPath": "img/sd.png",
+        "selectedIconPath": "img/sd1.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "iconPath": "img/fx.png",
+        "pageTum": "navigate",
+        "active": "false",
+        "selectedIconPath": "img/fx1.png"
+      },
+      {
+        "pagePath": "pages/main/main",
+        "iconPath": "img/me.png",
+        "selectedIconPath": "img/me1.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}

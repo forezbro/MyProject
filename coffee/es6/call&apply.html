@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+		function fn(birth,nowYear){
+			console.log(this.name+"活了"+(nowYear-birth)+"年");
+		}
+		var year=parseInt((new Date()).getFullYear());
+		var yx={name:"yx",birth:1996,nowYear:year};
+		fn.call(yx,1996,year);
+		fn.apply(yx,[1996,year])
+	</script>
+</html>

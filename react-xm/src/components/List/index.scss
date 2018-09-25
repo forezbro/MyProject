@@ -1,0 +1,120 @@
+.List{
+	.header{
+		height: 0.5rem;
+		color: #fff;
+		text-align: center;
+		line-height: 0.5rem;
+		padding: 0 0.1rem;
+		font-size: 0.18rem;
+		text-align: center;
+		position: fixed;
+		width: 100%;
+		z-index: 10;
+		left: 0;
+		top: 0;
+		span{
+			color: black;
+		}
+		.icon-sousuo{
+			font-weight: bold;
+			font-size: 0.18rem;
+		}
+	}
+	.subitem{
+		margin-top: 0.2rem;
+	}
+	.sub1{
+		margin-top: 0.8rem;
+		padding-left: 0.14rem;
+		h3{
+			font-size: 0.2rem;
+			font-weight: bold;
+		}
+		h5{
+			font-size: 0.14rem;
+			color: #92969c;
+		}
+		.swiper-slide{
+			.imgbox{
+				height: 1.4rem;
+				width:96%;
+				margin:0.1rem 0;
+			}
+			h5{
+				font-size: 0.1rem;
+				color: #ff3939;
+			}
+			h3{
+				font-size: 0.17rem;
+				color: #000;
+			}
+			p{
+				font-size: 0.1rem;
+				color: #9b9b9b;
+			}
+		}
+	}
+	.sub2{
+		height: 1rem;
+		padding-left: 0.1rem;
+		overflow-x: hidden;
+		.midbox{
+			position: relative;
+			height: 1rem;
+		}
+		.layer{
+			height: 100%;
+			width: 100%;
+		}
+		.content{
+			position: absolute;
+			top: 25%;
+			left: 0;
+			width: 100%;
+			color: #fff;
+			p{
+				font-size: 0.18rem;
+			}
+			h5{
+				font-size: 0.12rem;
+				color: #fff;
+			}
+		}
+	}
+	.sub3{
+		padding: 0 0.1rem;
+		.subimg{
+			height: 1.8rem;	
+		}
+		p{
+			font-size: 0.16rem;
+		}
+		h3{
+			font-size: 0.18rem;
+		}
+	}
+	.more{
+		padding: 0 0.14rem;
+		p{
+			span{
+				font-size: 0.18rem;
+				font-weight: bold;
+			}
+			small{
+				color: #ff3939;
+				font-size: 0.14rem;
+			}
+		}
+		h5{
+			font-size: 0.12rem;
+			color: #92969c;
+		}
+		ul>li{
+			width: 33.3%;
+			padding: 0.1rem 0;
+		}
+	}
+	.sub6{
+		margin-bottom: 0.5rem;
+	}
+}

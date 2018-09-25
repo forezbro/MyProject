@@ -1,0 +1,29 @@
+.AppFooter{
+	position: fixed;
+	height: 40px;
+	background: rgba(0,0,0,.5);
+	color: #fff;
+	display: flex;
+	bottom: 0;
+	width: 100vw;
+	left: 0;
+	a{
+		display: flex;
+		flex-flow: column;
+		flex-grow: 1;
+		flex-shrink: 1;
+		align-items: center;
+		justify-content: center;
+		text-decoration: none;
+		color: #fff;
+		span{
+			font-size: 14px;
+		}
+		i{
+			font-size: 22px;
+		}
+	}
+	.active{
+		color: #ADD8E6;
+	}
+}

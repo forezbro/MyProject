@@ -1,0 +1,28 @@
+<view>
+  <swiper class="swiper"  autoplay="true" interval="4000" duration="1000">  
+    <view wx:for="{{moto}}" wx:for-index="index" wx:key="index">  
+      <swiper-item>  
+        <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+      </swiper-item>  
+    </view>  
+  </swiper>
+  <view class='section1'>
+    <view>
+      <view class="sd"><image src="../../img/sd2.jpg"/></view>
+      <swiper class="swiper swiper1"   autoplay="true" interval="4000" duration="1000">  
+        <view wx:for="{{section}}" wx:for-index="index" wx:key="index">  
+          <swiper-item>  
+            <view class='title'>{{item.title}}</view> 
+          </swiper-item>  
+        </view>  
+      </swiper>
+    </view>
+    <view bindtap="onTapdetail" data-postad="{{item.id}}" wx:for="{{section}}" wx:for-index="index" wx:key="index" class='messg'>
+      <view class='right'><image src="{{item.fullImgUrl}}"/></view>
+      <view class='left'>
+        <view class='mg'>{{item.title}}</view>
+        <view class='bottom'><view class='look' >阅读{{item.newsBaseReadCount}}</view><view  class='time'>{{item.addTime}}</view></view>
+      </view>
+    </view>
+  </view>
+</view>

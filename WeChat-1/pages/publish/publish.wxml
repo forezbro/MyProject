@@ -1,0 +1,46 @@
+<view wx:if="{{!success}}" class="box">
+<image src="../../img/bj1.png"/>
+    <view class="min">
+      <view class="row">
+        <label class="title">地址</label>
+          <view class="info info1" bindtap="handelAdressClick">{{address}}</view>
+      </view>
+      <view class="row">
+          <label class="title">配送</label>
+            <view class="info">
+              <radio-group bindchange="handleTypeChange">
+                <label>
+                  <radio value="buy" checked='true'/>京东
+                  <radio value="seil"/>顺丰
+                </label>
+              </radio-group>
+            </view>
+        </view>
+        <view class="row">
+            <label class='title'>说明</label>
+            <view class='info'>
+              <input class='info-input' bindinput="handleMessageContact" placeholder='填写您的具体需求...'/>
+            </view>
+          </view>
+        <view class="row">
+          <label class='title'>电话</label>
+            <view class='info'>
+              <input class='info-input' bindinput="handleChangeContact" placeholder='请输入您的电话号码...'/>
+            </view>
+          </view>
+          <view>
+            <button type='warn' bindtap="handleSubmit">提交</button>
+          </view>
+      </view>
+</view>
+<view wx:if="{{success}}">
+    <view class="happy">
+    <image src="../../img/timg.jpg"/>
+       恭喜你~
+      快来和朋友一起分享吧！！
+    </view>
+    <view class='btn'>
+      <button bindtap="go"><navigator url="../index/index" open-type="switchTab"/>返回首页</button>
+      <button open-type="share">转发分享</button>
+    </view>
+</view>

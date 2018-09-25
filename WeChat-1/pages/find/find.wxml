@@ -1,0 +1,32 @@
+<view>
+  <view class="nav bc_white">
+    <view class="{{selected?'red':'default'}}" bindtap="selected">分类</view>
+    <view class="{{selected1?'red':'default'}}" bindtap="selected1">礼品</view>
+  </view>
+    <view class="{{selected?'show':'hidden'}}">
+        <view class='title'>大家都在看</view>
+        <swiper class="swiper swiper1"    interval="4000" duration="1000">  
+          <view wx:for="{{alls}}" wx:for-index="index" wx:key="index">  
+            <swiper-item>  
+              <image class='re' src="{{item.image}}"></image>
+              <view class='titles'>{{item.title}}</view> 
+            </swiper-item>  
+          </view>  
+        </swiper>
+        <view class='title'>资讯栏目</view>
+        <view class='alls'>
+            <view  bindtap="onTapdetail" data-postad="{{item.id}}" wx:for="{{allss}}" wx:key="index">
+              {{allss[index].name}}
+            </view>
+        </view>
+    </view>
+    <view class="{{selected1?'show':'hidden'}}">
+     <view class="tabar">
+     <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="15" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}"  bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location="true" style="width: 100%; height: 90.5vh;"></map>
+        <view>
+          <view class="publish"><navigator url="../publish/publish">获取礼品</navigator></view>
+          <view class="search">查找资格</view>
+        </view>
+		 </view>
+    </view>
+</view>
